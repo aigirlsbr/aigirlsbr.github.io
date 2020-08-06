@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Poliana N Ferreira">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./imgs/icon.png">
+    <style type="text/css"> 
+        button{
+            padding-left: 5px; 
+            padding-right: 5px;
+        }
+        body{
+            min-width: 320px;
+        }
+        h1{
+            color: #4A5FD9;
+        }
+        h2{
+            font-size: large;
+        }
+        .foto{
+            margin-right: 15px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 0 2px lightgray;
+        }
+        .foto-hover{
+            margin-right: 15px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            box-shadow: 0 0 0 3px #D9529C;
+        }
+        .foto-hover:hover {
+            box-shadow: 0 0 0 2px lightgray;
+        }
+        main{
+            margin-top:100px;
+            margin-bottom:100px;
+        }
+        p{
+            text-align: justify;
+        }
+
+        .alinha{
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+        }
+        .nomes{
+            justify-content: start;
+            flex: 1;
+            width: 250px;
+            padding-right: 15px;
+        }
+        @media only screen and (max-width: 400px) {
+            .nomes{
+                width: 200px;
+            }
+        }
+        
+        @media only screen and (max-width: 765px) {
+            h1{
+                font-size: xx-large;
+            }
+        }
+        .custom-gutter > [class*='col-'] {
+            padding-right:1px;
+            padding-left:1px; 
+            padding-top: 10px;
+        } 
+        .footer {
+            height: auto;
+            margin: auto;
+            text-align:center;
+            padding:10px;
+            color:gray;
+        }
+
+        #texto-inicial{
+            padding-top:10px;
+            padding-bottom: 10px;
+            font-size: 18px;
+        }   
+        .btn-secondary {
+            background-color: #D9529C;
+            border: 0px;
+        }
+        .btn-secondary:hover {
+            background-color: #D9529C;
+            opacity: 0.7;
+            border: 0px;
+        }
+
+    </style>
+    
+    <title>Coordenadoras</title>
+
+</head>
+
+<body>
+
+    <!---------------- Navegação ------------------>
+    <header>
+        <nav class="navbar shadow-sm navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                        <img src="./imgs/logo.png" alt="Logo Ai Girls" width="150">
+                    </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Coordenadoras</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!---------------- Página ------------------>
+    <main role="main" class="container">
+        <!---------------- Título e texto ------------------>
+        <h1 class="mt-4 h1-cor">Coordenadoras da Comunidade</h1><hr>
+        <p id="texto-inicial">O nosso sincero agradecimento a essas mulheres maravilhosas que tocam as iniciativas e os eventos da comunidade Ai Girls com o intuito de trazer o melhor conteúdo e estimular cada vez mais mulheres a entrarem na área de Inteligência Artificial e Ciência de Dados!</p>
+        
+        <!---------------- Informações ------------------>
+        <!-- Linha 1 -->
+        <div class="row justify-content-md-center custom-gutter">
+            <!-- Poliana -->
+            <div class="col col-lg-5">
+                <button type="button" class="btn btn-white" data-toggle="modal" data-target="#ModalPoliana">
+                    <div class="alinha">
+                    <div>
+                        <img src="./imgs/poliana.png" alt="Foto Poliana" width="100" class="foto foto-hover"> 
+                    </div>
+                    <div class="nomes">
+                        <h2>Poliana Nascimento Ferreira</h2>
+                        <i>Eventos e Co-Founder</i>
+                    </div>
+                </div>
+                </button>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!-- Laura -->
+            <div class="col col-lg-5">
+                <button type="button" class="btn btn-white" data-toggle="modal" data-target="#ModalLaura">
+                    <div class="alinha">
+                    <div>
+                        <img src="./imgs/laura.jpeg" alt="Foto Laura" width="100" class="foto foto-hover"> 
+                    </div>
+                    <div class="nomes">
+                        <h2>Laura Damaceno de Almeida</h2>
+                        <i>Eventos, Conteúdo e Co-Founder</i>
+                    </div>
+                </div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Linha 2 -->
+        <div class="row justify-content-md-center custom-gutter">
+            <!-- Luiza -->
+            <div class="col col-lg-5">
+                <button type="button" class="btn btn-white" data-toggle="modal" data-target="#ModalLuiza">
+                    <div class="alinha">
+                    <div>
+                        <img src="./imgs/luiza.png" alt="Foto Luiza" width="100" class="foto foto-hover"> 
+                    </div>
+                    <div class="nomes">
+                        <h2>Luíza Bizoni</h2>
+                        <i>Design</i>
+                    </div>
+                </div>
+                </button>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!-- Fernanda -->
+            <div class="col col-lg-5">
+                <button type="button" class="btn btn-white" data-toggle="modal" data-target="#ModalFernanda">
+                    <div class="alinha">
+                    <div>
+                        <img src="./imgs/fernanda.jpeg" alt="Foto Fernanda" width="100" class="foto foto-hover"> 
+                    </div>
+                    <div class="nomes">
+                        <h2>Maria Fernanda Souza</h2>
+                        <i>Conteúdo</i>
+                    </div>
+                </div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Linha 3 -->
+        <div class="row justify-content-md-center custom-gutter">
+            <!-- Andressa -->
+            <div class="col col-lg-5">
+                <button type="button" class="btn btn-white" data-toggle="modal" data-target="#ModalAndressa">
+                    <div class="alinha">
+                    <div>
+                        <img src="./imgs/andressa.jpg" alt="Foto Andressa" width="100" class="foto foto-hover"> 
+                    </div>
+                    <div class="nomes">
+                        <h2>Andressa da Silva Siqueira</h2>
+                        <i>Comunicação e Co-Founder</i>
+                    </div>
+                </div>
+                </button>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!-- Suzana -->
+            <div class="col col-lg-5">
+                
+                <button type="button" class="btn btn-white" data-toggle="modal" data-target="#ModalSuzana">
+                    <div class="alinha">
+                    <div>
+                        <img src="./imgs/suzana.jpeg" alt="Foto Suzana" width="100" class="foto foto-hover"> 
+                    </div>
+                    <div class="nomes">
+                        <h2>Suzana Viana Mota</h2>
+                        <i>Eventos</i>
+                    </div>
+                </div>
+                </button>
+            </div>
+        </div>
+
+        <!-- Linha 4 -->
+        <div class="row justify-content-md-center custom-gutter">
+            <!-- Thamara -->
+            <div class="col col-lg-5">
+                <button type="button" class="btn btn-white" data-toggle="modal" data-target="#ModalThamara">
+                    <div class="alinha">
+                    <div>
+                        <img src="./imgs/thamara.jpg" alt="Foto Thamara" width="100" class="foto foto-hover"> 
+                    </div>
+                    <div class="nomes">
+                        <h2>Thâmara Vilela</h2>
+                        <i>Eventos</i>
+                    </div>
+                </div>
+                </button>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!-- Beatriz -->
+            <div class="col col-lg-5">
+                
+                <button type="button" class="btn btn-white" data-toggle="modal" data-target="#ModalBeatriz">
+                    <div class="alinha">
+                    <div>
+                        <img src="./imgs/beatriz.jpg" alt="Foto Beatriz" width="100" class="foto foto-hover"> 
+                    </div>
+                    <div class="nomes">
+                        <h2>Beatriz Pereira</h2>
+                        <i>Conteúdo</i>
+                    </div>
+                </div>
+                </button>
+                
+            </div>
+        </div>
+
+        <!-- Para adicionar uma nova pessoa, copiar a div de linha, modificar as informações data-target, 
+        img src (colocar a imagem na pasta de imagens), alt, h2 e i e criar um modal para ela com id igual 
+        ao data-target. OBS.: Quando for a última linha e só tiver uma pessoa nela, manter o 
+        <div class="col col-lg-5"></div> do final, mas vazio, dai quando for colocar alguém, é só copiar
+        as coisas que deveriam ficar ali de algum de cima :)-->
+        <h1 class="mt-4 h1-cor">Ex-Coordenadoras</h1><hr>
+            <h2 style="display: inline;">Bruna Baldini</h2> <br>
+            <h2 style="display: inline;">Thaissa Bueno Sanches </h2> - <i>Co-Founder</i> <br>
+            <h2 style="display: inline;">Mine Caxeiro </h2> - <i>Co-Founder</i>
+    </main>
+
+    <footer>
+        <div class="fixed-bottom footer bg-light">
+            © 2020 AI Girls - Atualizado em 01/08/2020
+        </div>
+    </footer>
+    
+
+    <!---------------- Modais ------------------>
+    <!-- Modal Poliana -->
+    <div class="modal fade" id="ModalPoliana" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <img src="./imgs/poliana.png" alt="Foto Poliana" width="60" class="foto">
+                </div>
+                <div>
+                    <h2>Poliana Nascimento Ferreira</h2> 
+                    <i>Eventos e Co-Founder</i>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Mestranda em Ciências da Computação na UFABC, graduada em Análise e Desenvolvimento de Sistemas pela FIAP e entusiasta de Machine Learning e TensorFlow com foco em Computer Vision. 
+                    Apaixonada por tecnologia no geral e coordenadora, palestrante e participante de eventos e comunidades.
+                </p>
+                <a href="https://www.linkedin.com/in/poliana-nascimento-ferreira/">Contato da Coordenadora :)</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Laura -->
+    <div class="modal fade" id="ModalLaura" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <img src="./imgs/laura.jpeg" alt="Foto Laura" width="60" class="foto">
+                </div>
+                <div>
+                    <h2>Laura Damaceno de Almeida</h2> 
+                    <i>Eventos, Conteúdo e Co-Founder</i>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Quero trazer idéias para o mundo e transformar a vida das pessoas a partir dos dados, e com a inteligência artificial e a ciência de dados sinto que consigo levar esse impacto para a vida das pessoas e por isso eu sou apaixonada por essas áreas.</p>
+                <p>Graduando ciências da computação, amante por séries e participar de comunidades que visam a equidade na área de tecnologia.</p>
+                <a href="https://www.linkedin.com/in/laura-damaceno/">Contato da Coordenadora :)</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Luiza -->
+    <div class="modal fade" id="ModalLuiza" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <img src="./imgs/luiza.png" alt="Foto Luiza" width="60" class="foto">
+                </div>
+                <div>
+                    <h2>Luíza Bizoni</h2> 
+                    <i>Design</i>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Pesquisa e comunicação visual são minhas paixões e 
+                    consegui uni-las utilizando meus conhecimentos em Data Science e Design Gráfico.</p>
+                <p>Atualmente trabalho como Cientista de Dados e Designer e sou graduanda em Ciências Econômicas e 
+                    Análise e Desenvolvimento de Sistemas.</p>
+                <p>Encontrei nas comunidades um espaço de equidade, inclusão e diversidade onde é possível aprender e compartilhar conhecimentos para crescer e evoluir pessoal e profissionalmente.</p>
+                <a href="https://www.linkedin.com/in/bizoniluiza/">Contato da Coordenadora :)</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Fernanda -->
+    <div class="modal fade" id="ModalFernanda" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <img src="./imgs/fernanda.jpeg" alt="Foto Fernanda" width="60" class="foto">
+                </div>
+                <div>
+                    <h2>Maria Fernanda Souza</h2> 
+                    <i>Conteúdo</i>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Recifense, mãe de gatinhas e futura cientista da computação pela UFRPE. Faço parte de algumas comunidades de tecnologia e de Python, sempre tentando trazer mais mulheres para a área. 
+                    Sou professora de programação, além de trabalhar como engenheira de dados.</p>
+                
+                <a href="mfsouza.com">Contato da Coordenadora :)</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Andressa -->
+    <div class="modal fade" id="ModalAndressa" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <img src="./imgs/andressa.jpg" alt="Foto Andressa" width="60" class="foto">
+                </div>
+                <div>
+                    <h2>Andressa da Silva Siqueira</h2> 
+                    <i>Comunicação e Co-Founder</i>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Mestre em Sistema e Computação pelo Instituto Militar de Engenharia e graduada no curso de Engenharia Elétrica com ênfase em Sistema e Computação pela Universidade do Estado do Rio de Janeiro.
+                </p><p>
+                Atuo na área tecnológica desde 2007, e estou me especializando na área de Data Science e IA</p>
+                
+                <a href="https://www.linkedin.com/in/andressasiqueira/">Contato da Coordenadora :)</a>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Suzana -->
+    <div class="modal fade" id="ModalSuzana" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <img src="./imgs/suzana.jpeg" alt="Foto Suzana" width="60" class="foto">
+                </div>
+                <div>
+                    <h2>Suzana Viana Mota</h2> 
+                    <i>Eventos</i>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Mestre em Engenharia Elétrica pela UNICAMP, graduada em Sistemas de Informação pela PUC- Campinas.
+                    Atua na área de Pesquisa e Desenvolvimento, principalmente na área de Visão Computacional.
+                    Mineira, Python Lover (&lt;3) e entusiasta do Mundo Maker, acredita que podemos mudar o mundo, com boas ideias e unidas em comunidade!</p>
+                <a href="https://www.linkedin.com/in/suzanamota/">Contato da Coordenadora :)</a>
+            </div>
+            <div class="modal-footer"> 
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Thamara -->
+    <div class="modal fade" id="ModalThamara" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <img src="./imgs/thamara.jpg" alt="Foto Thamara" width="60" class="foto">
+                </div>
+                <div>
+                    <h2>Thâmara Vilela</h2> 
+                    <i>Eventos</i>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Mulher, Mãe, Preta, Professora & Investigadora de Dados Sociais.
+                </p><p>
+                    Sou professora substituta na Faculdade de Informação e Comunicação da UFG, amo essa vida de ensinante-aprendente, é onde sinto-me em casa. Ciência de Dados e Inteligência Artificial entraram de fininho, hoje fazem parte das minhas conversas, pesquisas e brilho nos olhos. Estimular mais mulheres e minorias na tecnologia é uma missão que abraço com fervor. Mestra em Psicologia Social (UnB) e Comunicadora Social (UFG), tenho como propósito de vida criar meu filho para ser um homem de bem, ser uma boa mãe. Amo ler, escrever, conversar, ficar no meio de mil plantas ou bichos e dormir na rede :))</p>
+                <a href="https://www.instagram.com/prof.thamaravilela/?hl=pt-br">Contato da Coordenadora :)</a>
+            </div>
+            <div class="modal-footer"> 
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!-- Modal Thamara -->
+    <div class="modal fade" id="ModalBeatriz" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div>
+                    <img src="./imgs/beatriz.jpg" alt="Foto Beatriz" width="60" class="foto">
+                </div>
+                <div>
+                    <h2>Beatriz Pereira</h2> 
+                    <i>Conteúdo</i>
+                </div>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Graduada em Secretariado Executivo, estudando de Análise e Desenvolvimento de Sistemas pela FATEC e 
+                    entusiasta com arquitetura de soluções pra negócios. Apaixonada por gerenciamento e metodologias ágeis.</p>
+                     <a href="https://www.linkedin.com/in/beagomesp/">Contato da Coordenadora :)</a>
+            </div>
+            <div class="modal-footer"> 
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    <!-- Para adicionar um novo, copiar o modal de alguém, modificar as informações id (igual 
+        ao data-target dela), img src e alt, h2, i, o texto e o link no modal-body. -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
