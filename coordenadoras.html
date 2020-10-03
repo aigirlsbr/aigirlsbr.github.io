@@ -117,6 +117,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">Coordenadoras</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parceiros.html">Parceiros</a>
+                    </li>
                     </ul>
                 </div>
             </div>
@@ -282,8 +285,18 @@
 
     <footer>
         <div class="fixed-bottom footer bg-light">
-            © 2020 AI Girls - Atualizado em 01/08/2020
-        </div>
+            <script language="Javascript">  update = new Date(document.lastModified)
+                mes = update.getMonth() + 1
+                dia = update.getDate()
+                ano = update.getFullYear()
+                document.write("© " + ano + " AI Girls - ")
+                if(dia < 10)
+                document.write("Atualizado em: 0" + dia)
+                else document.write("Atualizado em: " + dia)
+                if (mes < 10)  document.write("/0" + mes)
+                else document.write("/" + mes)
+                document.write("/" + ano + "</I>")</script>
+            </div>
     </footer>
     
 

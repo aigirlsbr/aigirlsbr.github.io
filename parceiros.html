@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Poliana N Ferreira">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="./imgs/icon.png">
+    <style type="text/css"> 
+        button{
+            padding-left: 5px; 
+            padding-right: 5px;
+        }
+        body{
+            min-width: 320px;
+        }
+        .h1-redes{
+            color: #4A5FD9;
+            font-size: xx-large;
+        }
+        h2{
+            font-size: large;
+        }
+        .foto{
+            margin-right: 15px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 0 2px lightgray;
+        }
+        .foto-hover{
+            margin-right: 15px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 0 0 2px #4A5FD9;
+        }
+        .foto-hover:hover {
+            box-shadow: 0 0 0 2px lightgray;
+        }
+        main{
+            padding-top:70px;
+            padding-bottom:0px;
+        }
+        p{
+            text-align: center;
+            font-size: 18px;
+        }
+        b{
+            color: #D9529C;
+        }
+        
+        .alinha{
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+        }
+        .nomes{
+            justify-content: start;
+            flex: 1;
+            width: 250px;
+            padding-right: 15px;
+        }
+        @media only screen and (max-width: 400px) {
+            .nomes{
+                width: 200px;
+            }
+        }
+        #main { 
+            height: 100%; 
+        } 
+        #resto { 
+            width: 100%; 
+            height: 100%; 
+            background-color: white; 
+        } 
+        
+        .custom-gutter > [class*='col-'] {
+            padding-right:1px;
+            padding-left:1px; 
+            padding-top: 10px;
+        } 
+        .footer {
+            height: auto;
+            margin: auto;
+            text-align:center;
+            padding:10px;
+            color:gray;
+        }
+
+        #texto-inicial{
+            padding-top:10px;
+            padding-bottom: 10px;
+            font-size: 18px;
+        }   
+        /* Style all font awesome icons */
+        .fa {
+  padding: 10px;
+  font-size: 60px;
+  height: 80px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  color: #D9529C;
+}
+.fa2 {
+  padding: 0px;
+  font-size: 30px;
+  margin: 0;
+  text-align: right;
+  text-decoration: none;
+  color: black;
+}
+.fa:hover{
+    color: #D9529C;
+}
+.carousel-item {
+  height: 40vh;margin-top: 10px;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.slide-tit{
+    font-size:  max(5vw, 22px);
+    color: #D9529C;
+}
+@media only screen and (max-width: 795px) {
+            h1{
+                font-size: x-large;
+            }
+            .slide-tit{
+    font-size:  40px;
+    color: #D9529C;
+}
+            
+        }
+a:hover{text-decoration: none;}
+
+/* Set a specific color for each brand */
+
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+
+    </style>
+    
+    <title>AI Girls</title>
+
+</head>
+
+<body >
+
+    <!---------------- Navegação ------------------>
+    <header>
+        <nav class="navbar shadow-sm navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                        <img src="./imgs/logo.png" alt="Logo Ai Girls" width="150">
+                    </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./coordenadoras.html">Coordenadoras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Parceiros</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!---------------- Página ------------------>
+    <main role="main" class = "container">
+        <!---------------- Título e texto ------------------>
+        <h1 class="mt-4 h1-cor">Parceiros</h1><hr>
+        <p id="texto-inicial">O nosso agradecimento aos parceiros da comunidade do ano de 2020</p>
+        <!-- Linha 1 -->
+        <div class="row justify-content-md-center custom-gutter">
+            <!-- -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                        <img src="./parceiros/avante.png" alt="Logo Avante" width="200" > 
+                    </div>
+                </div>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!-- -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                        <img src="./parceiros/concrete.jpg" alt="Logo Concrete" width="200" > 
+                    </div>
+                </div>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!-- -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                        <img src="./parceiros/dafiti.png" alt="Logo Dafiti" width="200" > 
+                    </div>
+                </div>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!--  -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                        <img src="./parceiros/ftl.png" alt="Logo FTL" width="200" > 
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Linha 2 -->
+        <div class="row justify-content-md-center custom-gutter">
+            <!--  -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                        <img src="./parceiros/idwall.png" alt="Logo idwall" width="200" > 
+                    </div>
+                </div>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!--  -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                        <img src="./parceiros/ipog.png" alt="Logo IPOG" width="200" > 
+                    </div>
+                </div>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!-- -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                        <img src="./parceiros/perifacode.png" alt="Logo perifacode" width="200" > 
+                    </div>
+                </div>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!--  -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                        <img src="./parceiros/pyladies.png" alt="Logo pyladies Goiânia" width="200" > 
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Linha 3 -->
+
+        <div class="row justify-content-md-center custom-gutter">
+            <!--  -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                        <img src="./parceiros/rladies.png" alt="Logo rladies" width="200" > 
+                    </div>
+                </div>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!--  -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!--  -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                    </div>
+                </div>
+            </div>
+            <!-- "Coluna para posicionamento no centro (não mexer)" -->
+            <div class="col-md-auto"></div>
+            <!--  -->
+            <div class="col col-lg-2">
+                    <div class="alinha">
+                    <div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </main>
+    
+    <footer>
+    
+        <div class="fixed-bottom footer bg-light">
+        <script language="Javascript">  update = new Date(document.lastModified)
+            mes = update.getMonth() + 1
+            dia = update.getDate()
+            ano = update.getFullYear()
+            document.write("© " + ano + " AI Girls - ")
+            if(dia < 10)
+            document.write("Atualizado em: 0" + dia)
+            else document.write("Atualizado em: " + dia)
+            if (mes < 10)  document.write("/0" + mes)
+            else document.write("/" + mes)
+            document.write("/" + ano + "</I>")</script>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
