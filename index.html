@@ -6,147 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css" integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
     <link rel="shortcut icon" href="./imgs/icon.png">
-    <style type="text/css"> 
-        button{
-            padding-left: 5px; 
-            padding-right: 5px;
-        }
-        body{
-            min-width: 320px;
-        }
-        .h1-redes{
-            color: #4A5FD9;
-            font-size: xx-large;
-        }
-        h2{
-            font-size: large;
-        }
-        .foto{
-            margin-right: 15px;
-            border-radius: 50%;
-            border: 5px solid #fff;
-            box-shadow: 0 0 0 2px lightgray;
-        }
-        .foto-hover{
-            margin-right: 15px;
-            border-radius: 50%;
-            border: 5px solid #fff;
-            box-shadow: 0 0 0 2px #4A5FD9;
-        }
-        .foto-hover:hover {
-            box-shadow: 0 0 0 2px lightgray;
-        }
-        main{
-            padding-top:70px;
-            padding-bottom:0px;
-        }
-        p{
-            text-align: center;
-            font-size: 18px;
-        }
-        b{
-            color: #D9529C;
-        }
-        
-        .alinha{
-            display: flex; 
-            justify-content: center; 
-            align-items: center;
-        }
-        .nomes{
-            justify-content: start;
-            flex: 1;
-            width: 250px;
-            padding-right: 15px;
-        }
-        @media only screen and (max-width: 400px) {
-            .nomes{
-                width: 200px;
-            }
-        }
-        #main { 
-            height: 100%; 
-        } 
-        #resto { 
-            width: 100%; 
-            height: 100%; 
-            background-color: white; 
-        } 
-        
-        .custom-gutter > [class*='col-'] {
-            padding-right:1px;
-            padding-left:1px; 
-            padding-top: 10px;
-        } 
-        .footer {
-            height: auto;
-            margin: auto;
-            text-align:center;
-            padding:10px;
-            color:gray;
-        }
-
-        #texto-inicial{
-            padding-top:10px;
-            padding-bottom: 10px;
-            font-size: 18px;
-        }   
-        /* Style all font awesome icons */
-        .fa {
-  padding: 10px;
-  font-size: 60px;
-  height: 80px;
-  width: 80px;
-  text-align: center;
-  text-decoration: none;
-  color: #D9529C;
-}
-.fa2 {
-  padding: 0px;
-  font-size: 30px;
-  margin: 0;
-  text-align: right;
-  text-decoration: none;
-  color: black;
-}
-.fa:hover{
-    color: #D9529C;
-}
-.carousel-item {
-  height: 40vh;margin-top: 10px;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.slide-tit{
-    font-size:  max(5vw, 22px);
-    color: #D9529C;
-}
-@media only screen and (max-width: 795px) {
-            h1{
-                font-size: x-large;
-            }
-            .slide-tit{
-    font-size:  40px;
-    color: #D9529C;
-}
-            
-        }
-a:hover{text-decoration: none;}
-
-/* Set a specific color for each brand */
-
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-
-    </style>
     
     <title>AI Girls</title>
 
@@ -172,6 +35,15 @@ a:hover{text-decoration: none;}
                     <li class="nav-item">
                         <a class="nav-link" href="parceiros.html">Parceiros</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://dev.to/aigirlsbr">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="materiais.html">Materiais</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Fale conosco</a>
+                    </li>
                     </ul>
                 </div>
             </div>
@@ -180,76 +52,147 @@ a:hover{text-decoration: none;}
 
     <!---------------- Página ------------------>
     <main role="main" id="main">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            </ol>
-            <div class="carousel-inner" role="listbox">
-              <!-- Slide One - Set the background image for this slide in the line below -->
-              <div class="carousel-item active" style="background-image: url('./imgs/palestra-ps.png')">
-                <div class="carousel-caption ">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScgHc1wDdDBpbqj9jzNf-ax5Wqxvu4305ttbh4egEVj0kfzDA/viewform">
-                    
-                     
-                    <h1 class="slide-tit">Call for Papers</h1>
-                  <p ><b style="color: white; font-size: x-large;">Inscreva-se para palestrar!</b></p>
-                </a>
-                </div>
-              </div>
-            
-              <!-- Slide Two - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('./imgs/foto.png')">
-                <div class="carousel-caption">
-                    <a href="https://www.youtube.com/channel/UC_QxmLPZQRJDjjtN1M-gfnQ">
-            
-                        <h1 class="slide-tit">Eventos Online</h1>
-                        <p ><b style="color: white; font-size: x-large;">Acompanhe nossos eventos Online</b></p>
-                </div>
-              </div>
-              <!-- Slide Three - Set the background image for this slide in the line below -->
-              <div class="carousel-item" style="background-image: url('./imgs/blog-ps.png')">
-                <div class="carousel-caption ">
-                    <a href="https://github.com/ai-girls/dev-to-posts">
-            
-                    <h1 class="slide-tit">Escreva para o Blog</h1>
-                  <p ><b style="color: white; font-size: x-large;">Envie conteúdo para o nosso blog</b></p>
-                    </a>
-                </div>
-              </div>
-            <!-- Slide Two - Set the background image for this slide in the line below -->
-            <div class="carousel-item" style="background-image: url('./imgs/foto2.png')">
-                <div class="carousel-caption">
-                    <a href="https://forms.gle/HHy1d2ouSf2jA7s6A">
-            
-                        <h1 class="slide-tit">Clube de Leitura</h1>
-                        <p ><b style="color: white; font-size: x-large;">Inscreva-se no clube de leitura!</b></p>
-                </div>
-              </div>
-            </div>
-            
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-          </div>
-        
+        <!-- <div class="redes">
+            <ul class="redes" id="redes">
+            <li style="width:51px;height:51px;margin-right:0;display:block;">
+                <a href="https://www.facebook.com/aigirlsbr/" target="_blank"
+                title="Abre em nova aba" rel="noopener noreferrer"
+                aria-label="Facebook"><i class="fa fa-facebook"
+                    aria-hidden="true"></i>
+            </a></li>
+            <li style="width:51px;height:51px;margin-right:0;display:block;">
+                <a href="https://www.instagram.com/aigirlsbrasil" target="_blank"
+                    title="Abre em nova aba" rel="noopener noreferrer"
+                    aria-label="Instagram"><i class="fa fa-instagram"
+                        aria-hidden="true"></i>
+            </a></li>
+            <li style="width:51px;height:51px;margin-right:0;display:block;">
+                <a href="https://www.linkedin.com/company/ai-girls/" target="_blank"
+                        title="Abre em nova aba" rel="noopener noreferrer"
+                        aria-label="Linkedin"><i class="fa fa-linkedin"
+                            aria-hidden="true"></i>
+            </a></li>
+            <li style="width:51px;height:51px;;margin-right:0;display:block;">
+            <a href="https://www.youtube.com/channel/UC_QxmLPZQRJDjjtN1M-gfnQ" target="_blank"
+                        title="Abre em nova aba" rel="noopener noreferrer"
+                        aria-label="Youtube"><i class="fa fa-youtube"
+                        aria-hidden="true"></i>
+            </a></li>
+        </ul>
+            </div> -->
+          	<!--================Home Banner Area =================-->
+	<section class="home_banner_area">
+        <div id="principal">
+            <div class="text">
+            <h2 class="font_2" style="font-size:68px; text-align:center;">
+                <span style="text-shadow:#010101 0px 5px 0px;">
+                    <span style="font-size:80px;">
+                        <span class="color_11" id="nome"> AI GIRLS</span>
+                            </span>
+                            </span>                 
+
+            </h2>
+            <h2 class="font_2" style="font-size:29px; text-align:center;">
+                <span style="text-shadow:#010101 0px 5px 0px;">
+
+            <span style="font-size:29px;">
+                <span class="color_11" id="texto"> Uma comunidade de IA feito por mulheres para mulheres</span>
+            </span>
+            </span>
+        </h2>
+        <div class="col-lg-12 col-sm-6" style="padding-top: 30px; text-align: center;">
+            <aside class="f_widget social_widget">
+                    <ul class="socials_list">
+                        <li class="social-icons__SocialItem-tmh943-2 jbHhmp">
+                            <a href="https://github.com/aigirlsbr" class="social-icons__SocialLink-tmh943-1 cfHweP" target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Github"><i class="fa fa-github"
+                                aria-hidden="true"></i></a>
+                                </li>
+                        <li class="social-icons__SocialItem-tmh943-2 jbHhmp">
+                            <a href="https://www.facebook.com/aigirlsbr/" target="_blank"
+                            title="Abre em nova aba" rel="noopener"
+                            aria-label="Facebook"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></a>
+                                </li>
+                        <li class="social-icons__SocialItem-tmh943-2 jbHhmp">
+                            <a href="https://www.instagram.com/aigirlsbrasil" target="_blank"
+                            title="Abre em nova aba" rel="noopener"
+                            aria-label="Instagram"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a>
+                                </li>
+                        <li class="social-icons__SocialItem-tmh943-2 jbHhmp">
+                            <a href="https://www.linkedin.com/company/ai-girls/" target="_blank"
+                            title="Abre em nova aba" rel="noopener"
+                            aria-label="Linkedin"><i class="fa fa-linkedin"
+                                aria-hidden="true"></i></a>
+                                </li>
+                        <li class="social-icons__SocialItem-tmh943-2 jbHhmp">
+                            <a href="https://www.youtube.com/channel/UC_QxmLPZQRJDjjtN1M-gfnQ" target="_blank"
+                            title="Abre em nova aba" rel="noopener"
+                            aria-label="Youtube"><i class="fa fa-youtube"
+                                aria-hidden="true"></i></a>
+                            </li>
+                        <li class="social-icons__SocialItem-tmh943-2 jbHhmp">
+                            <a href="https://dev.to/aigirlsbr" target="_blank"
+                                title="Abre em nova aba" rel="noopener"
+                                aria-label="Medium"><i class="fa fa-medium"
+                                    aria-hidden="true"></i></a>
+                                    </li>
+
+                    </ul>
+            </aside>
+        </div>
+    </div>
+            <!-- <img src="imgs/logo.png"> -->
+
+            <!-- <div class="d-flex">
+							<img src="imgs/foto.png" alt="Evento da comunidade em GO." >
+						</div>  -->
+            <!-- <div class="col-md-7 text-center text-md-left ">
+                <h2 class="h000-mktg lh-condensed-ultra mb-3"> Pronto para jogar o jogo da memória de uma forma divertida e
+                    diferente?</h2>
+                <p class="lead-mktg mb-4"> Inspirada no anime Yu Gi Oh, este jogo traz as cartas mais famosas do mundo dos
+                    duelos diretamente para você. Testando suas habilidades com alguns desafios de um jeito novo!</p>
+                <h4 class="h000-mktg lh-condensed-ultra mb-3">É HORA DO DUELO!</h4>
+            </div> -->
+        </div>
+		<!-- <div class="container box_1620">
+			<div class="banner_inner d-flex align-items-center">
+				<div class="banner_content">
+					<div class="media"> -->
+                        <!-- <header class="masthead" style="background-image: url('/imgs/foto.png');"> -->
+
+						<!-- <div class="d-flex">
+							<img src="imgs/foto.png" alt="Evento da comunidade em GO." >
+						</div>
+						<div class="media-body">
+							
+					</div>
+				</div>
+			</div>
+		</div> -->
+	</section>
+	<!--================End Home Banner Area =================-->
     </main>
-    <div class="container " style="margin-top: 3vh; margin-bottom: 100px;">
+
+    <div class="container-fluid " style="position:relative;left:0;right:0;top:0;bottom:0">
+    
+        <div style="width:100%;position:relative;top:0;bottom:0" class="info_comunidade" id="sobre">
         <h1 class="h1-redes ">Quem somos</h1>
         <hr>
-        <p class="">Uma <b>comunidade feminina</b> de tecnologia que visa o <b>protagonismo feminino nas áreas de inteligência artificial e ciência de dados</b>.
-            Através de meetups e workshops gratuitos qualificamos as mulheres para que elas possam competir com os homens no mercado de trabalho.
-            </p>
+        <p class="texto">Uma <b>comunidade feminina</b> de tecnologia que tem por objetivo promover o <b>protagonismo feminino nas áreas de inteligência artificial e ciência de dados</b>. </p>
+            <p class="texto">A comunidade foi criada pensando nesses moldes em função  do já conhecido défict de mulheres na área.</p>
+            <p class="texto">Incentivamos o <b>protagonismo feminino</b> ao abrir espaço para mulheres palestrarem, conduzirem workshops, escrever artigos, etc. 
+                Com isso será possível encontrar mais mulheres atuando na área tanto em instituições de ensino como em empresas ocupando os mais diversos cargos.</p>
+            <p class="texto">Através de meetups e workshops gratuitos qualificamos as mulheres para que elas possam competir com os homens no mercado de trabalho.</p>
 
-        
-        <hr>
+
+    </div>
+</div>
+
+
+        <!-- <hr>
         
         <h1 class="h1-redes">Onde Estamos</h1>
         <hr>
@@ -262,30 +205,185 @@ a:hover{text-decoration: none;}
     <a href="https://dev.to/aigirlsbr" class="fa" style="margin-top: -100px;"><img src="./imgs/devto.svg"  ></a>
         
 </div>
-<hr>
-        <h1 class="h1-redes">Como Contribuir</h1>
-        <hr>
-        
-          <a  style="font-size: 22px;" href="https://docs.google.com/forms/d/e/1FAIpQLScgHc1wDdDBpbqj9jzNf-ax5Wqxvu4305ttbh4egEVj0kfzDA/viewform"><b>Inscreva uma palestra</b></a>
-         <br><a  style="font-size: 22px;" href="https://github.com/ai-girls/dev-to-posts"><b>Submeta artigos para o blog</b></a>
-         <br><a  style="font-size: 22px;" href="https://forms.gle/HHy1d2ouSf2jA7s6A"><b>Participe do Clube de Leitura</b></a>
-<hr>
-        <h1 class="h1-redes">Números da Comunidade</h1>
-        <hr>
-        <p class="text-align:left" style="font-size: 22px;">
-            <b class="h1-redes" style="font-size: 22px;">Facebook:</b><b > 340+</b> seguidores
-            <b class="h1-redes" style="font-size: 22px;">Linkedin:</b><b > 2440+</b> seguidores
-            <b class="h1-redes" style="font-size: 22px;">Instagram:</b><b > 550+</b> seguidores<br>
-            <b class="h1-redes" style="font-size: 22px;">Telegram:</b><b > 470+</b> membros <br>
-            <b class="h1-redes" style="font-size: 22px;">Youtube:</b><b > 450+</b> inscritos <b > 3300+</b> visualizações <br>
-            
-            <b class="h1-redes" style="font-size: 22px;">Blog:</b><b > 30+</b> seguidores <b > 830+</b> visualizações <br>
-            
-            <b class="h1-redes" style="font-size: 22px;">Eventos presenciais:</b><b > 15+</b> 
+<hr> -->
 
-        </p>
+    <!--================Start card Area =================-->
+<div class="row">
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="imgs/foto2.png">
+        <div class="card-body">
+          <h5 class="card-title">Clube de Leitura!</h5>
+          <p class="card-text">Para incentivar o compartilhamento do conhecimento e incentivar a qualificação das mulheres, criamos um clube de leitura.</p>
+          <a href="https://forms.gle/HHy1d2ouSf2jA7s6A" class="btn btn-primary">Participar</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="imgs/palestra-ps.png">
+        <div class="card-body">
+          <h5 class="card-title">Venha palestrar para a comunidade!</h5>
+          <p class="card-text">Você quer palestrar para a comunidade e tem um tema que você gosteria de falar? Então submete uma palestra pra gente</p>
+          <a href="https://forms.gle/sEC4YHsKvp1k5psa6" class="btn btn-primary">Acesse o CFP</a>
+        </div>
+      </div>
+    </div>
+<div class="col-sm">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="imgs/blog-ps.png">
+      <div class="card-body">
+        <h5 class="card-title">Escreva para o noss blog!</h5>
+        <p class="card-text">Você tem gostaria de escrever para o nosso blog? Tem algum tema sobre IA ou ciência de dados que gostaria de falar sobre? Então manda pra gente!</p>
+        <a href="https://github.com/ai-girls/dev-to-posts" class="btn btn-primary">Acessar</a>
+      </div>
+    </div>
 </div>
-    <footer>
+    <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="imgs/curso-ds.png">
+            <div class="card-body">
+              <h5 class="card-title">Indicação de cursos de ciência de dados!</h5>
+              <p class="card-text">A fim de trazer mais mulheres para a área de ciência de dados a comunidade decidiu reunir alguns cursos indicados pelas mulheres da comunidade sobre cursos na área.</p>
+              <a href="https://github.com/aigirlsbr/Cursos-DS" class="btn btn-primary">Acessar</a>
+            </div>
+          </div>
+        </div>
+</div>
+
+
+    <!--================End card Area =================-->
+    <!-- <div class="container-fluid2 " style="position:relative;left:0;right:0;top:0;bottom:0">
+    
+        <div style="width:100%;position:relative;top:0;bottom:0" class="info_comunidade" id="sobre">
+            <h1 class="numeros_comunidade">Números da Comunidade</h1>
+            <hr>
+            <p class="text-align:left" style="font-size: 22px;">
+                <b class="numeros_comunidade" style="font-size: 22px;">Facebook:</b><b > 340+</b> seguidores
+                <b class="numeros_comunidade" style="font-size: 22px;">Linkedin:</b><b > 2440+</b> seguidores
+                <b class="numeros_comunidade" style="font-size: 22px;">Instagram:</b><b > 550+</b> seguidores<br>
+                <b class="numeros_comunidade" style="font-size: 22px;">Telegram:</b><b > 470+</b> membros <br>
+                <b class="numeros_comunidade" style="font-size: 22px;">Youtube:</b><b > 450+</b> inscritos <b > 3300+</b> visualizações <br>
+                
+                <b class="numeros_comunidade" style="font-size: 22px;">Blog:</b><b > 30+</b> seguidores <b > 830+</b> visualizações <br>
+                
+                <b class="numeros_comunidade" style="font-size: 22px;">Eventos presenciais:</b><b > 15+</b> 
+    
+            </p>
+        </div>
+    </div> -->
+
+        <!--================Start Event table Area =================-->
+
+	<section class="home_banner_tabela">
+        <div class="eventos">
+            <h2 class="font_2" style="font-size:50px; text-align:center;">
+                <span style="text-shadow:#010101 0px 5px 0px;">
+                    <span style="font-size:60px;">
+                        <span class="color_11"> Próximos eventos da comunidade</span>
+                            </span>
+                            </span>                 
+
+            </h2>
+            </div>
+        <table class="pure-table" id="tabela_evento">
+            <thead>
+                <tr>
+                    <th>Próximos eventos</th>
+                    <th>Onde</th>
+                    <th>Dia</th>
+                    <th>Horário</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="pure-table-odd">
+                    <td>The circle of life: por que devemos nos preocupar com o ciclo de vida de modelos?</td>
+                    <td><a href="https://www.youtube.com/watch?v=OKWj2oPFd6w">Youtube</a></td>
+                    <td>10/10/2020</td>
+                    <td>19:00</td>
+
+                </tr>
+                <tr style="background-color: #ffffff;">
+                    <td>Aplicando ciência de dados na vida</td>
+                    <td><a href="https://www.youtube.com/watch?v=HFIMj4lkTnI">Youtube</a></td>
+                    <td>27/10/2020</td>
+                    <td>20:00</td>
+
+                </tr>
+                <tr class="pure-table-odd">
+                    <td>Geoanalytics: dominando dados geográficos para análise de dados</td>
+                    <td>Youtube</td>
+                    <td>25/11/2020</td>
+                    <td>20:00</td>
+
+                </tr>
+            </tbody>
+        </table>
+
+</section>
+        <!--================End Event table Area =================-->
+
+        <!--================Start carousel Area =================-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+              <!-- Slide One - Set the background image for this slide in the line below -->
+              <div class="carousel-item active" style="background-image: url('./imgs/entrevista2.png')">
+                <div class="carousel-caption ">
+                    <a href="https://lnkd.in/d7WWsfB">
+                    
+                     
+                    <h1 class="slide-tit">Female Tech Leaders</h1>
+                  <p ><b style="color: white; font-size: x-large;">Veja a entrevista que algumas coordenadoras deram pra revista Female Tech Leaders!</b></p>
+                </a>
+                </div>
+              </div>
+            
+              <!-- Slide Two - Set the background image for this slide in the line below -->
+              <div class="carousel-item" style="background-image: url('./imgs/foto4.png')">
+                <div class="carousel-caption">
+                    <a href="https://female-tech-leaders-summit.heysummit.com/checkout/select-tickets/">
+                        <h1 class="slide-tit">Summit IA para mulheres</h1>
+                        <p ><b style="color: white; font-size: x-large;">Participe da trilha sensacional de IA do summit da Female Tech leaders que a comunidade está ajudando a organizar!</b></p>
+                </div>
+              </div>
+              <!-- Slide Three - Set the background image for this slide in the line below -->
+              <div class="carousel-item" style="background-image: url('./imgs/foto3.png')">
+                <div class="carousel-caption ">
+                    <a href="https://www.sympla.com.br/urlAlias/render?alias=aigirls">
+                    <h1 class="slide-tit">Acompanhe nossos eventos presenciais</h1>
+                  <p ><b style="color: white; font-size: x-large;">Nós abrimos as vagas para a inscrição dos nossos eventos no sympla</b></p>
+                    </a>
+                </div>
+              </div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <!-- <div class="carousel-item" style="background-image: url('./imgs/foto2.png')">
+                <div class="carousel-caption">
+                    <a href="https://forms.gle/HHy1d2ouSf2jA7s6A">
+            
+                        <h1 class="slide-tit">Acompanhe nossos eventos presenciais</h1>
+                        <p ><b style="color: white; font-size: x-large;">Nós publicamos os eventos presenciais </b></p>
+                </div>
+              </div> -->
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+          </div>
+
+    <!--================Start footer Area =================-->
+    <footer class="footer_area p_50">
     
         <div class="fixed-bottom footer bg-light">
             <script language="Javascript">  update = new Date(document.lastModified)
@@ -298,9 +396,45 @@ a:hover{text-decoration: none;}
                 else document.write("Atualizado em: " + dia)
                 if (mes < 10)  document.write("/0" + mes)
                 else document.write("/" + mes)
-                document.write("/" + ano + "</I>")</script>
+                document.write("/" + ano + "</I>")
+            </script>
+
+			<div class="col-lg-12 col-sm-6" style="text-align: center;">
+                <aside class="f_widget social_widget">
+                    <div class="f_title">
+                        <h3 id="pt">Siga-nos nas redes sociais</h3>
+                    </div>
+                    <div class="text-center">
+                       <a href="https://github.com/aigirlsbr" target="_blank"
+                                title="Abre em nova aba" rel="noopener"
+                                aria-label="Github"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
+                       <a href="https://www.facebook.com/aigirlsbr/" target="_blank"
+                                title="Abre em nova aba" rel="noopener"
+                                aria-label="Facebook"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
+                        <a href="https://www.instagram.com/aigirlsbrasil" target="_blank"
+                                title="Abre em nova aba" rel="noopener"
+                                aria-label="Instagram"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></a>
+                        <a href="https://www.linkedin.com/company/ai-girls/" target="_blank"
+                                title="Abre em nova aba" rel="noopener"
+                                aria-label="Linkedin"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
+                        <a href="https://www.youtube.com/channel/UC_QxmLPZQRJDjjtN1M-gfnQ" target="_blank"
+                                title="Abre em nova aba" rel="noopener"
+                                aria-label="Youtube"><i class="fa fa-youtube"
+                                    aria-hidden="true"></i></a>
+                        <a href="https://dev.to/aigirlsbr" target="_blank"
+                                    title="Abre em nova aba" rel="noopener"
+                                    aria-label="Medium"><i class="fa fa-medium"
+                                        aria-hidden="true"></i></a>
+                    </div>
+                </aside>
             </div>
+        </div>
     </footer>
+        <!--================End footer Area =================-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

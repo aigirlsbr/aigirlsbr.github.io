@@ -1,0 +1,85 @@
+button{
+    padding-left: 5px; 
+    padding-right: 5px;
+}
+body{
+    min-width: 320px;
+}
+h1{
+    color: #4A5FD9;
+}
+h2{
+    font-size: large;
+}
+.foto{
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 2px lightgray;
+}
+.foto-hover{
+    margin-right: 15px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    box-shadow: 0 0 0 3px #D9529C;
+}
+.foto-hover:hover {
+    box-shadow: 0 0 0 2px lightgray;
+}
+main{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+p{
+    text-align: justify;
+}
+
+.alinha{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.nomes{
+    justify-content: start;
+    flex: 1;
+    width: 250px;
+    padding-right: 15px;
+}
+@media only screen and (max-width: 400px) {
+    .nomes{
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    h1{
+        font-size: xx-large;
+    }
+}
+.custom-gutter > [class*='col-'] {
+    padding-right:1px;
+    padding-left:1px; 
+    padding-top: 10px;
+} 
+.footer {
+    height: auto;
+    margin: auto;
+    text-align:center;
+    padding:10px;
+    color:gray;
+}
+
+#texto-inicial{
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}   
+.btn-secondary {
+    background-color: #D9529C;
+    border: 0px;
+}
+.btn-secondary:hover {
+    background-color: #D9529C;
+    opacity: 0.7;
+    border: 0px;
+}
