@@ -1,0 +1,40 @@
+.contact{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+.footer {
+    height: auto;
+    margin: auto;
+    text-align:center;
+    padding:10px;
+    color:gray;
+    position: relative;
+    bottom:0;
+    left: 0;
+
+}
+
+/* form{
+    left: 50%;
+    align-content: center;
+    position: relative;
+    height: 20%;
+    width: 1500;
+
+} */
+.forms{
+    align-content: center;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    width: 1500;
+
+}
