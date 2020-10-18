@@ -190,17 +190,18 @@ font-size: .90em;
 
 }
 .home_banner_tabela{
-    width: 1500px;
-	height: 500px;
-    /* background-color: rgb(26, 50, 99); */
     background-image: url(../imgs/events.png);
-    background-attachment: scroll;
-    align-content: center;
+    width: 100%;
+    height: 500px; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; 
 }
 #tabela_evento{
-    width: 700px;
+    /* width: 700px; */
     position: relative;
-    top: 50%;
+    top: 30%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -210,12 +211,14 @@ font-size: .90em;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.home_banner_area{
-    width: 1500px;
-	height: 700px;
+.home_banner_area {
+    width: 100%;
+    height: 700px;
     background-image: url(../imgs/foto.png);
-    background-attachment: scroll;
-    align-content: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 .slide-tit{
 font-size:  max(5vw, 22px);
