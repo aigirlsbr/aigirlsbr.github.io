@@ -17,6 +17,13 @@ ul{
     text-align: center;
     font-size: xx-large;
 }
+
+.h1-cor{
+    padding-top: 50px;
+    color: #D9529C;
+    text-align: center;
+    font-size: xx-large;
+}
 .numeros_comunidade{
     padding-top: 50px;
     color: #4A5FD9;
@@ -210,6 +217,10 @@ font-size: .90em;
 .row{
     padding-top: 50px;
     padding-bottom: 50px;
+}
+.parceiros{
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 .home_banner_area {
     width: 100%;
