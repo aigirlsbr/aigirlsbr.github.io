@@ -1,160 +1,90 @@
+b{
+    color: #D9529C;
+}
+
+body{
+    min-width: 320px;
+}
+
 button{
     padding-left: 5px; 
     padding-right: 5px;
 }
-body{
-    min-width: 320px;
-}
-ul{
-    padding-top: 55px;
-    display: flex;
-    text-align: center;
-    list-style: none;
-}
-.h1-redes{
-    padding-top: 50px;
-    color: #fff;
-    text-align: center;
-    font-size: xx-large;
+
+main{
+    overflow:hidden
 }
 
-.h1-cor{
-    padding-top: 50px;
-    color: #D9529C;
-    text-align: center;
-    font-size: xx-large;
-}
-.numeros_comunidade{
-    padding-top: 50px;
-    color: #4A5FD9;
-    text-align: center;
-    font-size: xx-large;
-}
-.info_comunidade{
-    padding-top: 60px;
-    position: absolute;
-    top: 50%;
-}
-/* h2{
-    font-size: large;
-} */
-.foto{
-    margin-right: 15px;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    box-shadow: 0 0 0 2px lightgray;
-}
-.foto-hover{
-    margin-right: 15px;
-    border-radius: 50%;
-    border: 5px solid #fff;
-    box-shadow: 0 0 0 2px #4A5FD9;
-}
-.foto-hover:hover {
-    box-shadow: 0 0 0 2px lightgray;
-}
-main{
-    padding-top:70px;
-    padding-bottom:0px;
-}
 p{
     text-align: center;
     font-size: 18px;
-}
-b{
-    color: #D9529C;
-}
-.texto{
-    color: #fff;
+    color: black;
 }
 
-.alinha{
-    display: flex; 
-    justify-content: center; 
-    align-items: center;
-}
-.nomes{
-    justify-content: start;
-    flex: 1;
-    width: 250px;
-    padding-right: 15px;
-}
-@media only screen and (max-width: 400px) {
-    .nomes{
-        width: 200px;
-    }
-}
-#main { 
-    height: 100%; 
-} 
-#resto { 
-    width: 100%; 
-    height: 100%; 
-    background-color: white; 
-} 
-.color_11 {
-    color: #D9529C;
+th{
+    background-color: #D9529C;
 }
 
-/* h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-} */
+a:hover{
+    text-decoration: none;
+}
 
-.container-fluid{
+#main{
+    padding-top:70px;
+}
+ 
+#redes{
+    font-size: .90em;    
+}
 
-    background-color: rgb(26, 50, 99);
-    position: static;
-    display: grid;
-    height: auto;
+.area_branca{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.banner_entrada{
     width: 100%;
-    height: 500px;
-    min-height: auto;
-    grid-template-columns: 100%;
+    height: 70vh;
+    background-image: url(../imgs/foto.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom:10px
 }
-.container-fluid2{
-    background-color: rgb(224, 224, 224);
-    position: static;
-    display: grid;
-    height: auto;
-    width: 100%;
-    height: 500px;
-    min-height: auto;
-    grid-template-columns: 100%;
+
+.cards_novidade{
+    padding:20px; align-items: center; background-image: url(../imgs/events.png);
 }
-.eventos{
-    padding-top:10px;
+
+/*card-title também é uma classe do bootstrap, eu adicionei umas coisas */
+.card-title{
+    margin-top:10px; 
+    text-align: center;
 }
-.text, .socials_list{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    /* text-align: center;
-    /* margin-top: 50px; */
-    /* position: relative; */
+
+/*fa também é uma classe do bootstrap, eu adicionei umas coisas */
+.fa {
+    width: 40px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    color: #D9529C;
+    font-size: 30px;
 }
-/* #nome{
-    margin-top: 500px;
-    position: relative;
-}  */
-.redes{
-    padding-top: 100px;
-    position: fixed;
+
+.icones_redes{
+    text-align: center; 
+    margin:40px;
 }
-.custom-gutter > [class*='col-'] {
-    padding-right:1px;
-    padding-left:1px; 
-    padding-top: 10px;
-} 
-.footer {
+
+.info_comunidade{
+    width:100%;
+    position:relative;
+    top:0;
+    bottom:0;
+}
+
+.rodape {
     height: auto;
     margin: auto;
     text-align:center;
@@ -163,109 +93,47 @@ b{
     position: relative;
     bottom:0;
     left: 0;
-
 }
 
-#texto-inicial{
-    padding-top:10px;
-    padding-bottom: 10px;
-    font-size: 18px;
-} 
-.card{
-    margin-left:20px;
-}  
-
-/* Style all font awesome icons */
-.card-text{
-text-align: left;
+.subtitulo{
+    margin:20px; 
+    font-size:30px; 
+    text-align:center; 
+    text-shadow:#010101 5px 5px 10px; 
+    color: #D9529C;
 }
 
-
-.fa2 {
-padding: 0px;
-font-size: 30px;
-margin: 0;
-text-align: right;
-text-decoration: none;
-color: black;
-}
-.fa:hover{
-color: #D9529C;
-}
-#pt{
-font-size: .90em;
-
-}
-.home_banner_tabela{
-    background-image: url(../imgs/events.png);
-    width: 100%;
-    height: 500px; 
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover; 
-}
-#tabela_evento{
-    /* width: 700px; */
-    position: relative;
-    top: 30%;
+.texto_inicial{
+    margin: 0;
+    position: absolute;
+    top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
 
-.row{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.parceiros{
-    padding-top: 0px;
-    padding-bottom: 0px;
-}
-.home_banner_area {
-    width: 100%;
-    height: 700px;
-    background-image: url(../imgs/foto.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-.slide-tit{
-font-size:  max(5vw, 22px);
-color: #D9529C;
-}
-@media only screen and (max-width: 795px) {
-    h1{
-        font-size: x-large;
-    }
-    .slide-tit{
-font-size:  40px;
-color: #D9529C;
-}
-    
-}
-a:hover{text-decoration: none;
+.titulo{
+    margin:20px; 
+    font-size:80px; 
+    text-align:center; 
+    text-shadow:#010101 5px 5px 20px; 
+    color: #D9529C;
 }
 
-.socials_list li a {
-    width: 40px;
-    border-radius: 5px;
-    display: inline-block;
+.titulo_sessoes{
+    color: #4A5FD9;
     text-align: center;
-    color: #D9529C;
-    font-size: 30px;
+    font-size:30px;
+    padding-bottom: 10px;
 }
-.carousel-item {
-    height: 80vh;margin-top: 10px;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
-  .slide-tit{
-    font-size:  max(5vw, 22px);
-    color: #D9529C;
+
+@media only screen and (max-width: 400px) {
+    .titulo{
+        text-shadow:#010101 -2px -2px 5px;
+        font-size: 60px;
+    }
+    .subtitulo{
+        font-size: 20px;
+    }
+    
 }
